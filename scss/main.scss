@@ -1,7 +1,6 @@
 @import "variables";
 @import "title";
 
-
     .h2 {
         background-color: rgba(116, 109, 6, 0.582) ;
         text-align: center;
@@ -83,11 +82,24 @@
     }
     
     .card {
-        padding: 5px !important;
+        padding: 10px !important;
+    }
+    .card-body {
+        text-align: center !important;
+    }
+
+    .card-img-top {
+        height: 13rem !important;
+        background-size: contain !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        
+
+
     }
     
     .container {
-        align-items: center !important;
+        padding: 5px !important;
     }
 
     .social {
@@ -130,5 +142,4 @@
 
         }
     }
-
     

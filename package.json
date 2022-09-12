@@ -5,19 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/prueba.scss css/pruebacss.css",
+    "build-css": "node-sass --include-path scss scss/main.scss css/maincss.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MatiasEzRodriguez/CH-DW-DesafioSass.git"
+    "url": "git+https://github.com/MatiasEzRodriguez/CH-DW-Proyecto-Final"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MatiasEzRodriguez/CH-DW-DesafioSass/issues"
+    "url": "https://github.com/MatiasEzRodriguez/CH-DW-Proyecto-Final/issues"
   },
-  "homepage": "https://github.com/MatiasEzRodriguez/CH-DW-DesafioSass#readme",
+  "homepage": "https://github.com/MatiasEzRodriguez/CH-DW-Proyecto-Final#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.19"

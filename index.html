@@ -15,40 +15,41 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
     <!--link css-->
-    <link rel="stylesheet" href="css/pruebacss.css">
+    <link rel="stylesheet" href="css/maincss.css">
 </head>
 
 <body>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">TresDeP</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pedidos.html">Pedidos a medida</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
 
     <header>
 
-            <h1>TresDeP</h1>
+            <h1></h1>
     </header>
-<!--navbar-->
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Inicio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pedidos.html">Pedidos a medida</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="nosotros.html">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
 
     
     <main>
@@ -59,12 +60,27 @@
             <div class="row">
               <div class="col-sm-12 col-md-4">
                 <img class="img" src="img/cubos.jpg" alt="cubos">
+                <div class="card-body">
+                  <h5 class="card-title">Cubos miniatura</h5>
+                  <p class="card-text">U$S 3.99</p>
+                  <a href="#" class="btn btn-primary">Añadir al Carrito</a>
+                </div>
               </div>
               <div class="col-sm-12 col-md-4">
                 <img class="img" src="img/esqueleto.jpg" alt="esqueleto">
+                <div class="card-body">
+                  <h5 class="card-title">Figura esqueleto</h5>
+                  <p class="card-text">U$S 3.99</p>
+                  <a href="#" class="btn btn-primary">Añadir al Carrito</a>
+                </div>
               </div>
               <div class="col-sm-12 col-md-4">
                 <img class="img" src="img/maceta.jpg" alt="maceta">
+                <div class="card-body">
+                  <h5 class="card-title">Maceta miniatura</h5>
+                  <p class="card-text">U$S 3.99</p>
+                  <a href="#" class="btn btn-primary">Añadir al Carrito</a>
+                </div>
               </div>
             </div>
 
@@ -72,29 +88,59 @@
                 <div class="row">
                   <div class="col-sm-12 col-md-4">
                     <img class="img" src="img/pulpos.jpg" alt="pulpos">
+                    <div class="card-body">
+                      <h5 class="card-title">Juguete pulpo</h5>
+                      <p class="card-text">U$S 3.99</p>
+                      <a href="#" class="btn btn-primary">Añadir al Carrito</a>
+                    </div>
                   </div>
                   <div class="col-sm-12 col-md-4">
                     <img class="img" src="img/t-rex.jpg" alt="t-rex">
+                    <div class="card-body">
+                      <h5 class="card-title">Duchador T-Rex</h5>
+                      <p class="card-text">U$S 3.99</p>
+                      <a href="#" class="btn btn-primary">Añadir al Carrito</a>
+                    </div>
                   </div>
                   <div class="col-sm-12 col-md-4">
                     <img class="img" src="img/torre.jpg" alt="torre">
+                    <div class="card-body">
+                      <h5 class="card-title">Torre miniatura</h5>
+                      <p class="card-text">U$S 3.99</p>
+                      <a href="#" class="btn btn-primary">Añadir al Carrito</a>
+                    </div>
                   </div>
                 </div>
 
                 <div class="row">
                     <div class="col-sm-12 col-md-4">
                         <img class="img" src="img/vader.jpg" alt="vader">
+                        <div class="card-body">
+                          <h5 class="card-title">Lego Darth Vader</h5>
+                          <p class="card-text">U$S 3.99</p>
+                          <a href="#" class="btn btn-primary">Añadir al Carrito</a>
+                        </div>
                     </div>
                     <div class="col-sm-12 col-md-4">
                         <img class="img" src="img/yoda.jpg" alt="yoda">
+                        <div class="card-body">
+                          <h5 class="card-title">Estatuilla Yoda</h5>
+                          <p class="card-text">U$S 3.99</p>
+                          <a href="#" class="btn btn-primary">Añadir al Carrito</a>
+                        </div>
                     </div>
                     <div class="col-sm-12 col-md-4">
                         <img class="img" src="img/zorro.jpg" alt="zorro">
+                        <div class="card-body">
+                          <h5 class="card-title">Estatuilla Zorro</h5>
+                          <p class="card-text">U$S 3.99</p>
+                          <a href="#" class="btn btn-primary">Añadir al Carrito</a>
+                        </div>
                     </div>
                   </div>
         
           </div>
-
+        </div>
         
 
     </main>

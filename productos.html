@@ -13,63 +13,67 @@
 
 
     <!--link css-->
-    <link rel="stylesheet" href="css/pruebacss.css">
+    <link rel="stylesheet" href="css/maincss.css">
 </head>
 <body>
 
+  <!--navbar-->
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">TresDeP</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pedidos.html">Pedidos a medida</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="nosotros.html">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
     <header>
 
-        <h1>TresDeP</h1>
+        <h1></h1>
 </header>
 
-<!--navbar-->
-<nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Inicio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pedidos.html">Pedidos a medida</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="nosotros.html">Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacto.html">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
 <div class="productos">
     <p>Lista de productos</p>
 </div>
 
-<div class="container text-center">
+<div class="container">
 
     <div class="row">
         <div class="col-sm-6">
-          <div class="card">
+          <div class="card" style="width: 18rem;">
+            <img src="img/boat.jpg" class="card-img-top" alt="boat">
             <div class="card-body">
               <h5 class="card-title">Barco miniatura</h5>
-              <img class="img" src="img/boat.jpg" alt="Barco">
-              <a href="#" class="btn btn-primary">Agregar al carrito</a>
+              <p class="card-text">U$S 4.99</p>
+              <a href="#" class="btn btn-primary">Añadir al Carrito</a>
             </div>
           </div>
         </div>
         <div class="col-sm-6">
-          <div class="card">
+          <div class="card" style="width: 18rem;">
+            <img src="img/grogu.jpg" class="card-img-top" alt="grogu">
             <div class="card-body">
               <h5 class="card-title">Estatuilla Grogu</h5>
-              <img class="img" src="img/grogu.jpg" alt="Grogu">
-              <a href="#" class="btn btn-primary">Agregar al carrito</a>
+              <p class="card-text">U$S 4.99</p>
+              <a href="#" class="btn btn-primary">Añadir al Carrito</a>
             </div>
           </div>
         </div>
@@ -77,20 +81,22 @@
 
       <div class="row">
         <div class="col-sm-6">
-          <div class="card">
+          <div class="card" style="width: 18rem;">
+            <img src="img/amongus.jpg" class="card-img-top" alt="amongus">
             <div class="card-body">
-              <h5 class="card-title">Estatuilla Among Us</h5>
-              <img class="img" src="img/amongus.jpg" alt="Amongus">
-              <a href="#" class="btn btn-primary">Agregar al carrito</a>
+              <h5 class="card-title">Figura Among-us</h5>
+              <p class="card-text">U$S 4.99</p>
+              <a href="#" class="btn btn-primary">Añadir al Carrito</a>
             </div>
           </div>
         </div>
         <div class="col-sm-6">
-          <div class="card">
+          <div class="card" style="width: 18rem;">
+            <img src="img/groot.jpg" class="card-img-top" alt="groot">
             <div class="card-body">
-              <h5 class="card-title">Estatulla Groot</h5>
-              <img class="img" src="img/groot.jpg" alt="Groot">
-              <a href="#" class="btn btn-primary">Agregar al carrito</a>
+              <h5 class="card-title">Estatuilla Groot</h5>
+              <p class="card-text">U$S 4.99</p>
+              <a href="#" class="btn btn-primary">Añadir al Carrito</a>
             </div>
           </div>
         </div>
