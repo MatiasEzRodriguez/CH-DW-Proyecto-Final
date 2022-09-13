@@ -1,36 +1,24 @@
 @import "variables";
 @import "title";
 
-    .h2 {
-        background-color: rgba(116, 109, 6, 0.582) ;
+    .titulo {
         text-align: center;
-        font-size: 40px;
+        font-size: $titlefont;
         font-weight: lighter;
     }
     
-    .h3 {
-        background-color: aquamarine;
-        text-align: center;
-        font-size: 40px;
-        font-style: italic;
-    }
-    
     .ofertas {
-        background-color: rgba(110, 106, 49, 0.329) ;
         padding: 5px;
         
     }
     
-    .contacto {
-        background-color: rgba(77, 8, 8, 0.363);
-        padding: 5px;
-    }
-    
-    
-    
-    .pedidos {
-        background-color: rgba(18, 136, 91, 0.411);
-        padding: 5px;
+        
+    .pagina-pedidos,.pagina-contacto {
+        section{
+            min-width: 500px;
+            width: auto;
+            margin: auto;
+        }
     }
     td {
         height: 25px;
@@ -58,7 +46,10 @@
         transition: 2s ease;
     }
     
-    .h3 {
+    .nosotros {
+        text-align: center;
+        font-style: italic;
+
         animation-name: fade-in;
         animation-duration: 1s;
         animation-delay: 0.5s;
@@ -72,11 +63,11 @@
     
     @keyframes fade-in {
         0% {
-            transform: translateX(-300px);
+            transform: translateY(-300px);
             opacity: 0;
         }
         100% {
-            transform: translateX(0px);
+            transform: translateY(0px);
             opacity: 1;
         }
     }
@@ -93,9 +84,6 @@
         background-size: contain !important;
         background-position: center !important;
         background-repeat: no-repeat !important;
-        
-
-
     }
     
     .container {
@@ -142,4 +130,30 @@
 
         }
     }
+
+    .productos-container{
+        .card{
+            width: 18rem;
+            margin: auto;
+            .descripcion{
+                display: none !important;
+            }
+        }
+        .card:hover{
+            .descripcion{
+                display: block !important;
+            }
+        }
+    }
     
+    nav,header{
+        z-index: 10;
+        position: relative;
+    }
+
+    .card-oferta{
+        padding:10px;
+    }
+    .card-oferta:hover{
+        background-color: rgba(196, 187, 206, 0.137);
+    }

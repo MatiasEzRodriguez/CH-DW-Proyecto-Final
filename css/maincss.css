@@ -3,33 +3,38 @@ header {
   background-position: center;
   background-repeat: none;
   background-size: cover;
-  height: 500px; }
-  header h1 {
-    font-size: 25px; }
+  height: 200px;
+  width: 100%; }
 
-.h2 {
-  background-color: rgba(116, 109, 6, 0.582);
+.titulo-ofertas {
+  background-color: rgba(99, 17, 17, 0.2); }
+
+.titulo-productos {
+  background-color: rgba(167, 199, 23, 0.2); }
+
+.titulo-nosotros {
+  background-color: #ccdbcc;
+  position: relative;
+  z-index: 10; }
+
+.titulo-contacto {
+  background-color: rgba(11, 110, 128, 0.2); }
+
+.titulo-pedidos {
+  background-color: rgba(180, 20, 185, 0.2); }
+
+.titulo {
   text-align: center;
   font-size: 40px;
   font-weight: lighter; }
 
-.h3 {
-  background-color: aquamarine;
-  text-align: center;
-  font-size: 40px;
-  font-style: italic; }
-
 .ofertas {
-  background-color: rgba(110, 106, 49, 0.329);
   padding: 5px; }
 
-.contacto {
-  background-color: rgba(77, 8, 8, 0.363);
-  padding: 5px; }
-
-.pedidos {
-  background-color: rgba(18, 136, 91, 0.411);
-  padding: 5px; }
+.pagina-pedidos section, .pagina-contacto section {
+  min-width: 500px;
+  width: auto;
+  margin: auto; }
 
 td {
   height: 25px;
@@ -54,20 +59,22 @@ td {
   transform: rotateY(25deg);
   transition: 2s ease; }
 
-.h3 {
+.nosotros {
+  text-align: center;
+  font-style: italic;
   animation-name: fade-in;
   animation-duration: 1s;
   animation-delay: 0.5s; }
-  .h3 p {
+  .nosotros p {
     text-decoration: solid;
     font-size: medium; }
 
 @keyframes fade-in {
   0% {
-    transform: translateX(-300px);
+    transform: translateY(-300px);
     opacity: 0; }
   100% {
-    transform: translateX(0px);
+    transform: translateY(0px);
     opacity: 1; } }
 
 .card {
@@ -111,3 +118,22 @@ td {
     margin: 32px 8px;
     text-align: center;
     font-size: 24px; }
+
+.productos-container .card {
+  width: 18rem;
+  margin: auto; }
+  .productos-container .card .descripcion {
+    display: none !important; }
+
+.productos-container .card:hover .descripcion {
+  display: block !important; }
+
+nav, header {
+  z-index: 10;
+  position: relative; }
+
+.card-oferta {
+  padding: 10px; }
+
+.card-oferta:hover {
+  background-color: rgba(196, 187, 206, 0.137); }
